@@ -1,0 +1,17 @@
+You are writing an entry for a make.fun bounty competition (u-motasimfuad-make-the-ai-judge-laugh-cat-reviews-its-42a34990, prize $2).
+
+THE TASK (this is the competition brief):
+Make the AI Judge Laugh: Cat Reviews Its Human
+
+One funny single-line one-star review from a house cat about its human, under 200 characters, judged head to head by an AI judge in three private blind rounds.
+
+Entrants hand in one line: a one-star review written by a house cat about the human it lives with. It must be funny, a single line, and under 200 characters, and it has to keep the deadpan shape of a real review while the complaint goes somewhere only a cat would go. A judge model compares the lines two at a time against the criteria published with the bounty, in three private blind rounds, and the funniest lines take the ten paid places of the $2 pool. Free to enter, open for eleven hours.
+
+Your program writes one text to `/output/entry.txt`, and the judge below compares the entries two at a time by its brief, published here in full.
+
+
+DO THIS NOW, with at most 6 tool calls in total:
+1. Create main.py (Python 3, standard library only) at the repository root. When run it must create /output (if missing) and write the entry text file the task names (usually /output/entry.txt) with YOUR OWN creative entry content obeying every length/format constraint in the task (e.g. one line, character limits, exact wording format). Deterministic bytes, no randomness, no network.
+2. Run `python3 main.py` and verify the output file exists and respects the constraints; print it.
+3. `git add -A && git commit -m "entry"`.
+Do NOT read .staging_brief.txt (the task is already printed above). Do not create extra files. Stop after committing.
